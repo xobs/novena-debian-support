@@ -1,0 +1,14 @@
+Source: novena-debian-support
+Section: admin
+Priority: optional
+Maintainer: Sean Cross <xobs@kosagi.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: http://kosagi.com/
+Vcs-Git: git://github.com/xobs/novena-debian-support.git
+
+Package: novena-debian-support
+Architecture: all
+Depends: ${misc:Depends}
+Description: Support scripts to allow for updating a Novena Debian system
+ <insert long description, indented with spaces>
