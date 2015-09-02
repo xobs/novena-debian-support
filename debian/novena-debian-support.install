@@ -1,2 +1,2 @@
 etc/initramfs-tools/hooks/novena.hook.sh
-etc/kernel/postinst.d/zzz-novena-mkimge
+etc/kernel/postinst.d/zzz-novena-mkimage
