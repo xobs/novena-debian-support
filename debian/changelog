@@ -1,3 +1,9 @@
+novena-debian-support (1.1-1) unstable; urgency=medium
+
+  * Correct typo in novena-mkimage filename
+
+ -- Sean Cross <xobs@kosagi.com>  Wed, 02 Sep 2015 13:17:59 +0800
+
 novena-debian-support (1.0-1) unstable; urgency=low
 
   * Initial release
