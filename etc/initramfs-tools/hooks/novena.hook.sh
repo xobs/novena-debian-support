@@ -23,7 +23,7 @@ esac
 
 #mkdir $DESTDIR/lib/firmware
 cp -r /lib/firmware $DESTDIR/lib/
-cp -r /lib/modules/3.19* $DESTDIR/lib/modules/
-rm -rf $DESTDIR/lib/modules/3.19*/build/
+cp -r /lib/modules/$1 $DESTDIR/lib/modules/
+rm -rf $DESTDIR/lib/modules/$1/build/
 
 #/bin/bash
