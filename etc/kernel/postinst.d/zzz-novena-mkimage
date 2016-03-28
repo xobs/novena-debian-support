@@ -1,9 +1,0 @@
-#!/bin/sh
-echo "Installing new initrd to SD"
-
-mkimage -A arm -T ramdisk -C none -n uInitrd -d /boot/initrd.img /boot/uInitrd
-
-mkdir /mnt/bootsd 
-mount /dev/mmcblk0p1 /mnt/bootsd && cp /boot/uInitrd /mnt/bootsd/uInitrd 
-umount /mnt/bootsd
-rmdir /mnt/bootsd
