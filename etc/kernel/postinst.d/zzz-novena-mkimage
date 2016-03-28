@@ -21,6 +21,9 @@ then
 	fi
 	cp /boot/zimage /mnt/bootsd/zimage
 	cp /boot/novena.dtb /mnt/bootsd/novena.dtb
+	cp /boot/u-boot* /mnt/bootsd/sd/
 	umount /mnt/bootsd
 	rmdir /mnt/bootsd
+else 
+	cp "/usr/share/linux-novena/initrd.img-$1" "/boot/initrd.img-$1"
 fi
