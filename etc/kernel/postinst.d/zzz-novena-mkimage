@@ -24,6 +24,4 @@ then
 	cp /boot/u-boot* /mnt/bootsd/sd/
 	umount /mnt/bootsd
 	rmdir /mnt/bootsd
-else 
-	cp "/usr/share/linux-novena/initrd.img-$1" "/boot/initrd.img-$1"
 fi
